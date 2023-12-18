@@ -1,0 +1,112 @@
+@media (max-width: 746px) {
+    
+    nav {
+        padding: 1.5rem;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero {
+        flex-direction: column;
+        gap: 3rem;
+        height: auto;
+    }
+
+    .hero-images-container {
+        display: none;
+    }
+
+    .button-container {
+        display: none;
+    }
+
+    .recipes-header {
+        margin-top: 3rem;
+    }
+
+    .recipes-card-container {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .recipes-card {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 2.5rem;
+    }
+
+    .newslatter-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 45vh;
+    }
+    
+    .text-news {
+        font-family: Montserrat;
+        font-size: 20px;
+        color: #FFF2E7;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    #email-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .form-box {
+        width: 80%;
+        max-width: 300px;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #C7BAB3;
+    }
+    
+    .form-box input {
+        width: 100%;
+        font-size: 18px;
+        color: #181012;
+        padding: 15px 10px;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        background-color: #FFF2E7;
+        margin-bottom: 10px;
+    }
+    
+    .form-box button {
+        width: 100%;
+        color: #FFF2E7;
+        padding: 15px 20px;
+        font-size: 20px;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        transition: .3s;
+    }
+    
+    .form-box button:hover {
+        background: #756a67;
+    }
+    
+    #textForm {
+        font-family: Montserrat;
+        font-size: 10px;
+        color: #E7A80E;
+        text-align: center;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Montserrat:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&family=Teko:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1f1517;
+    color: #ffffff;
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    cursor: pointer;
+    margin: auto ;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-family: Teko;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    color: #FFF2E780;
+}
+
+#menuToggle {
+    display: none;
+}
+
+.menu li a:hover {
+    color: #FFF2E7;
+}
+
+.github {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: 1px solid #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-hero {
+    background: #181012;
+}
+
+.hero {
+    max-width: 1120px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    padding: 0rem 2rem;
+    margin: auto;
+    overflow: clip;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.visible {
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.brown {
+    color: #A45A49;
+}
+
+.yellow {
+    color: #E7A80E;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 3.7rem;
+    font-weight: 800;
+}
+
+hr {
+    border-color: #A45A49;
+}
+
+.hero-subtitle {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero-images-container {
+    max-width: 60%;
+    column-count: 5;
+    margin: -1rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.hero-images-container > figure > img {
+    width: 115%;
+} 
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+    margin-top:rem;
+}
+
+.recipes-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    margin-top: 2rem;
+}
+
+.recipes-title {
+    font-family: Montserrat;
+    font-size: 2 rem;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF2E7;
+}
+
+.recipes-subtitle {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.recipes-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
+    gap: 1.5rem;
+}
+
+.recipes-card {
+    width: calc(50% - 10px); /* Calcula a largura para dois cards por linha com espaço entre eles */
+    box-sizing: border-box;
+    padding: 2.5rem;
+}
+
+.recipes-card-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.recipes-card-cabecalho-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.recipes-title {
+    color: #FFF2E7;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.recipe-avaliation {
+    color: #756a67;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.recipes-description {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.recipe-author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+.recipe-author > img {
+    border-radius: 20rem;
+    width: 4rem;
+}
+
+.perfil-author {
+    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+    overflow: hidden; /* Garante que a imagem seja exibida como um círculo */
+}
+
+.recipe-author-name {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+.newslatter-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+}
+
+.text-news {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #FFF2E7;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.form-box {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #C7BAB3;
+}
+
+.form-box input {
+    width: 260px;
+    font-size: 18px;
+    color: #181012;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #FFF2E7;
+}
+
+.form-box button {
+    color: #FFF2E7;
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 15px;
+    background: #1f1517;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.form-box button:hover {
+    background: #756a67;
+}
+
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background: #23181A;
+    margin-top: 6rem;
+}
+
+.footer-copy {
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-author {
+    color: #fff2e780;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#textForm {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 10px;
+    color: #E7A80E;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
